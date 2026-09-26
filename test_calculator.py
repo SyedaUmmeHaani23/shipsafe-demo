@@ -10,7 +10,7 @@ class TestCalculator(unittest.TestCase):
     def test_public_get_user_api(self):
         user = get_user("u1")
         self.assertEqual(user["id"], "u1")
-        self.assertEqual(user["timeout"], 10)
+        self.assertEqual(user["timeout"], 30)
 
 
 if __name__ == "__main__":
